@@ -1,4 +1,5 @@
 LocationApi::Application.routes.draw do
- resources :discounts
-  
+  root to: 'discounts#index'
+  resources :discounts
+
 end
